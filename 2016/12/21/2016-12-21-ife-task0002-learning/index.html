@@ -1,0 +1,644 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/vendors/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="Hexo, NexT" />
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.0.1" />
+
+
+
+
+
+
+<meta name="description" content="百度前端技术学院2015春季任务学习">
+<meta property="og:type" content="article">
+<meta property="og:title" content="IFE-task0002学习笔记">
+<meta property="og:url" content="https://jiayingzeng.github.io/2016/12/21/2016-12-21-ife-task0002-learning/index.html">
+<meta property="og:site_name" content="前端学习者">
+<meta property="og:description" content="百度前端技术学院2015春季任务学习">
+<meta property="og:updated_time" content="2016-12-21T08:15:08.688Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="IFE-task0002学习笔记">
+<meta name="twitter:description" content="百度前端技术学院2015春季任务学习">
+
+
+
+<script type="text/javascript" id="hexo.configuration">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    scheme: 'Mist',
+    sidebar: {"position":"left","display":"post"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: 0,
+      author: '博主'
+    }
+  };
+</script>
+
+
+
+
+  <link rel="canonical" href="https://jiayingzeng.github.io/2016/12/21/2016-12-21-ife-task0002-learning/"/>
+
+  <title> IFE-task0002学习笔记 | 前端学习者 </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">前端学习者</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+  <p class="site-subtitle">前端水深，学无止境，生活还有诗和远方</p>
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                IFE-task0002学习笔记
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-12-21T15:19:31+08:00" content="2016-12-21">
+              2016-12-21
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/ife/" itemprop="url" rel="index">
+                    <span itemprop="name">ife</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h1 id="知识点"><a href="#知识点" class="headerlink" title="知识点"></a>知识点</h1><h2 id="task0002-JavaScript数据类型及语言基础"><a href="#task0002-JavaScript数据类型及语言基础" class="headerlink" title="task0002 JavaScript数据类型及语言基础"></a>task0002 JavaScript数据类型及语言基础</h2><h3 id="检测数据类型"><a href="#检测数据类型" class="headerlink" title="检测数据类型"></a>检测数据类型</h3><ul>
+<li><p><code>typeof</code> 返回一个字符串,指示未经计算的操作数的类型</p>
+<ul>
+<li><code>typeof null === &#39;object&#39;</code></li>
+<li>对正则表达式字面量的类型判断在某些浏览器中不符合标准：<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">typeof /s/ === &apos;function&apos;; // Chrome 1-12 , 不符合 ECMAScript 5.1</div><div class="line">typeof /s/ === &apos;object&apos;; // Firefox 5+ , 符合 ECMAScript 5.1</div></pre></td></tr></table></figure>
+</li>
+</ul>
+</li>
+<li><p><code>instanceof</code> 用来测试一个对象在其原型链中是否存在一个构造函数的 prototype 属性</p>
+<ul>
+<li>instanceof只能用于对象，不适用原始类型值。</li>
+</ul>
+</li>
+<li><p><code>Object.prototype.toString</code><br>  实例对象可能会自定义toString方法，覆盖掉Object.prototype.toString方法。通过函数的call方法，可以在任意值上调用Object.prototype.toString方法，帮助我们判断这个值的类型。</p>
+<p>  | 类型 | 返回值  |<br>  |——|——–|<br>  |  数值：|  [object Number] |<br>  |   字符串：| [object String] |<br>  |  布尔值：| [object Boolean] |<br>  |   undefined：| [object Undefined] |<br>  |   null：| [object Null] |<br>  |   数组：| [object Array] |<br>  |   arguments对象：| [object Arguments] |<br>  |   函数：| [object Function] |<br>  |   Error对象：| [object Error] |<br>  |   Date对象：| [object Date] |<br>  |   RegExp对象：| [object RegExp] |<br>  |   其他对象：| [object “ + 构造函数的名称 + “] |</p>
+</li>
+</ul>
+<h4 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h4><ul>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/typeof" target="_blank" rel="external">https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/typeof</a></li>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/instanceof" target="_blank" rel="external">https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/instanceof</a></li>
+<li><a href="http://javascript.ruanyifeng.com/grammar/types.html#toc1" target="_blank" rel="external">http://javascript.ruanyifeng.com/grammar/types.html#toc1</a></li>
+<li><a href="http://javascript.ruanyifeng.com/oop/prototype.html#toc5" target="_blank" rel="external">http://javascript.ruanyifeng.com/oop/prototype.html#toc5</a></li>
+<li><a href="http://javascript.ruanyifeng.com/stdlib/object.html#toc5" target="_blank" rel="external">http://javascript.ruanyifeng.com/stdlib/object.html#toc5</a></li>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/toString" target="_blank" rel="external">https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/toString</a></li>
+</ul>
+<h3 id="数组去重"><a href="#数组去重" class="headerlink" title="数组去重"></a>数组去重</h3><h4 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h4><ul>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf" target="_blank" rel="external">indexOf</a> 效率不高，部分浏览器不支持</li>
+<li>hash{} 表</li>
+<li>先排序再比较相邻元素</li>
+<li>特殊情况：既有数字又有字符串</li>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/filter" target="_blank" rel="external">filter</a> 部分浏览器不支持</li>
+</ul>
+<h4 id="参考链接-1"><a href="#参考链接-1" class="headerlink" title="参考链接"></a>参考链接</h4><ul>
+<li><a href="http://www.tuicool.com/articles/jA3iE3i" target="_blank" rel="external">http://www.tuicool.com/articles/jA3iE3i</a></li>
+<li><a href="http://stackoverflow.com/questions/1960473/unique-values-in-an-array" target="_blank" rel="external">http://stackoverflow.com/questions/1960473/unique-values-in-an-array</a></li>
+</ul>
+<h3 id="获取一个对象里面第一层元素的数量"><a href="#获取一个对象里面第一层元素的数量" class="headerlink" title="获取一个对象里面第一层元素的数量"></a>获取一个对象里面第一层元素的数量</h3><h4 id="方法-1"><a href="#方法-1" class="headerlink" title="方法"></a>方法</h4><ul>
+<li>Object.keys() 方法会返回一个由给定对象的所有可枚举自身属性的属性名组成的数组，数组中属性名的排列顺序和使用for-in循环遍历该对象时返回的顺序一致 (顺序一致不包括数字属性)(两者的主要区别是 for-in 还会遍历出一个对象从其原型链上继承到的可枚举属性)。<ul>
+<li>Object.keys() IE9以下浏览器不兼容</li>
+</ul>
+</li>
+<li>Object.getOwnPropertyNames: 获取一个对象的所有属性,包括不可枚举的。</li>
+</ul>
+<h4 id="参考链接-2"><a href="#参考链接-2" class="headerlink" title="参考链接"></a>参考链接</h4><ul>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/keys" target="_blank" rel="external">Object.keys()-MDN</a></li>
+<li><a href="http://stackoverflow.com/questions/5533192/how-to-get-object-length" target="_blank" rel="external">http://stackoverflow.com/questions/5533192/how-to-get-object-length</a></li>
+</ul>
+<h3 id="正则验证手机和邮箱"><a href="#正则验证手机和邮箱" class="headerlink" title="正则验证手机和邮箱"></a>正则验证手机和邮箱</h3><ul>
+<li>参考w3c的 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">/^[a-zA-Z0-9.!#$%&amp;’*+/=?^_`&#123;|&#125;~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/</div></pre></td></tr></table></figure>
+</li>
+</ul>
+<h4 id="参考链接-3"><a href="#参考链接-3" class="headerlink" title="参考链接"></a>参考链接</h4><ul>
+<li><a href="https://www.w3.org/TR/html-markup/input.email.html#input.email.attrs.value.multiple" target="_blank" rel="external">https://www.w3.org/TR/html-markup/input.email.html#input.email.attrs.value.multiple</a></li>
+<li><a href="http://emailregex.com/" target="_blank" rel="external">http://emailregex.com/</a></li>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/RegExp" target="_blank" rel="external">https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/RegExp</a></li>
+</ul>
+<h2 id="DOM"><a href="#DOM" class="headerlink" title="DOM"></a>DOM</h2><h3 id="操作DOM"><a href="#操作DOM" class="headerlink" title="操作DOM"></a>操作DOM</h3><h4 id="参考链接-4"><a href="#参考链接-4" class="headerlink" title="参考链接"></a>参考链接</h4><ul>
+<li><a href="http://www.webhek.com/you-do-not-need-jquery" target="_blank" rel="external">你不需要jQuery</a></li>
+</ul>
+<h4 id="知识点-1"><a href="#知识点-1" class="headerlink" title="知识点"></a>知识点</h4><ul>
+<li><p>添加className:<br>  <code>el.classList.add(className)</code><br>  <code>el.className+=&#39; &#39;+className</code> </p>
+</li>
+<li><p>删除className<br>  <code>el.classList.remove(className)</code><br>  <code>el.className.replace(new RegExp(&#39;(^|\\b)&#39;+className.split(&#39; &#39;).join(&#39;|&#39;)+&#39;(\\b|$)&#39;,&#39;gi&#39;),&#39;&#39;)</code></p>
+</li>
+<li><p>是否为同一个</p>
+</li>
+</ul>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2016/09/21/2016-09-21-Sass-learning/" rel="next" title="Sass-learning">
+                <i class="fa fa-chevron-left"></i> Sass-learning
+              </a>
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel ">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/avatar.png"
+               alt="曾佳英" />
+          <p class="site-author-name" itemprop="name">曾佳英</p>
+          <p class="site-description motion-element" itemprop="description">前端 | javascript | css | html</p>
+        </div>
+        <nav class="site-state motion-element">
+          <div class="site-state-item site-state-posts">
+            <a href="/archives">
+              <span class="site-state-item-count">6</span>
+              <span class="site-state-item-name">日志</span>
+            </a>
+          </div>
+
+          
+            <div class="site-state-item site-state-categories">
+              <a href="/categories">
+                <span class="site-state-item-count">4</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
+
+          
+
+        </nav>
+
+        
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+        
+        
+
+        
+        
+
+      </section>
+
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#知识点"><span class="nav-number">1.</span> <span class="nav-text">知识点</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#task0002-JavaScript数据类型及语言基础"><span class="nav-number">1.1.</span> <span class="nav-text">task0002 JavaScript数据类型及语言基础</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#检测数据类型"><span class="nav-number">1.1.1.</span> <span class="nav-text">检测数据类型</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#参考链接"><span class="nav-number">1.1.1.1.</span> <span class="nav-text">参考链接</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#数组去重"><span class="nav-number">1.1.2.</span> <span class="nav-text">数组去重</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#方法"><span class="nav-number">1.1.2.1.</span> <span class="nav-text">方法</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#参考链接-1"><span class="nav-number">1.1.2.2.</span> <span class="nav-text">参考链接</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#获取一个对象里面第一层元素的数量"><span class="nav-number">1.1.3.</span> <span class="nav-text">获取一个对象里面第一层元素的数量</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#方法-1"><span class="nav-number">1.1.3.1.</span> <span class="nav-text">方法</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#参考链接-2"><span class="nav-number">1.1.3.2.</span> <span class="nav-text">参考链接</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#正则验证手机和邮箱"><span class="nav-number">1.1.4.</span> <span class="nav-text">正则验证手机和邮箱</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#参考链接-3"><span class="nav-number">1.1.4.1.</span> <span class="nav-text">参考链接</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#DOM"><span class="nav-number">1.2.</span> <span class="nav-text">DOM</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#操作DOM"><span class="nav-number">1.2.1.</span> <span class="nav-text">操作DOM</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#参考链接-4"><span class="nav-number">1.2.1.1.</span> <span class="nav-text">参考链接</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#知识点-1"><span class="nav-number">1.2.1.2.</span> <span class="nav-text">知识点</span></a></li></ol></li></ol></li></ol></li></ol></div>
+            
+          </div>
+        </section>
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2016</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">曾佳英</span>
+</div>
+
+<div class="powered-by">
+  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Mist
+  </a>
+</div>
+
+        
+
+        
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/vendors/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.0.1"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.0.1"></script>
+
+
+
+  
+
+
+
+  
+
+
+
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
